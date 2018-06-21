@@ -37,7 +37,7 @@ We use git with TFS to manage our code following a standard Microsoft [branching
 We support all major browers and applications should be responsive (look good on a mobile device)
 
 ### Roadmap
-We support all major browers and applications MUST be responsive (look good on a mobile device)
+We support all major browers and applications **MUST** be responsive (look good on a mobile device)
 
 ### Major Browsers
 - Internet Explorer 11+

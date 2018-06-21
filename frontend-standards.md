@@ -20,13 +20,23 @@ Each type of application should have their own design guide and when applicable 
 - React
 - [AngularJs](https://angularjs.org/)
 - jQuery
-- Vanilla Javascript
+- Vanilla Javascript (latest greatest with [BabelJs](https://babeljs.io/) for IE support)
 
 ### Roadmap
 All apps should be built with the concept of [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/). Those components should focused and reusable.
 
 - React
 - Vanilla Javascript
+
+## Running Tasks
+We do things like minifying javacript, compiling sass, compiling es6 code. We use Gulp to manage those tasks, importing NPM packages to help us do what we need to do.
+
+### Current
+- Gulp
+- Webpack (in react apps)
+
+### Road
+- TBD
 
 ## Managing Code
 We use git with TFS to manage our code following a standard Microsoft [branching strategry](https://docs.microsoft.com/en-us/vsts/git/concepts/git-branching-guidance?view=vsts)
